@@ -95,7 +95,7 @@ $.get({
 
 for (i = 0; i < len; i++) {
   parsedData.push(
-  data[i].content.$t.replace('url: ', '')
+  data[i].title.$t.replace('url: ', '')
   );
 }
 document.getElementById("demo").innerHTML = len;
